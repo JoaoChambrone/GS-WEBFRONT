@@ -1,0 +1,61 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 300px;
+    background-color: rgb(255, 46, 168);
+    box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, 0.8);
+    p{
+        background-color: rgb(255, 46, 168);
+    }
+    h3{
+        background-color: rgb(255, 46, 168)
+    }
+    a{
+      background-color: rgb(255, 46, 168);
+    }
+    div{
+        background-color: rgb(255, 46, 168)
+    }
+    img {
+        height: 100px;
+        width: 90px;
+        margin-left: 60px;
+        background-color: rgb(255, 46, 168)
+    }
+    .contato, .sobre-nos {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        p {
+            margin: 5px;
+        }
+        
+    }
+}
+  
+
+.hoverfooter:hover{
+    background-color: palevioletred;
+
+}
+
+
+.fontmod{
+    font-size: 11.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px){
+    h3{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    h3{
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "usuarios":[
+        {
+            "usuario":"medico",
+            "senha":"12345678"
+        },
+        {
+            "usuario":"paciente",
+            "senha":"123456789"
+        }
+        
+    ]
+}
